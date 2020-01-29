@@ -23,7 +23,11 @@ namespace Lemosinfotec.panda.WebSystem
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            var connection = Configuration["ConexaoMySql:MySqlConnectionString"];
+            services.AddDbContext<DataContexto>(options =>options.UseMySql(connection));
+           
+            services.AddMvc();
+            services.addRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
