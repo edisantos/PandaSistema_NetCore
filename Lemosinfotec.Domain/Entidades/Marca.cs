@@ -7,7 +7,7 @@ namespace Lemosinfotec.Domain.Entidades
         public int MarcaId { get; set; }
         public string Nome { get; set; }
 
-        public ICollection<Veiculo> Veiculos{get;set;}
+        public ICollection<Veiculo> Veiculo {get;set;}
        
     }
 }

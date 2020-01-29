@@ -19,6 +19,8 @@ namespace Lemosinfotec.Infra.Data.EntityConfig
             .WithOne(x=>x.TipoManutencao);
 
             
+
+            
         }
     }
 }

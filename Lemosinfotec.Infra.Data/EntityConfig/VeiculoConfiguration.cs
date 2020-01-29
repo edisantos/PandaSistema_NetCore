@@ -21,9 +21,7 @@ namespace Lemosinfotec.Infra.Data.EntityConfig
             .HasColumnType("varchar(7)")
             .IsRequired();
 
-            
-            
-             
+                    
             
 
             

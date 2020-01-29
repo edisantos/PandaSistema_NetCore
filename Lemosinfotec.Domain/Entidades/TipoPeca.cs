@@ -10,7 +10,7 @@ namespace Lemosinfotec.Domain.Entidades
         public int FornecedorId { get; set; }
 
         public ICollection<Registro> Registro{get;set;}
-        public ICollection<Estoque> Estoques{get;set;}
+        public ICollection<Estoque> Estoque{get;set;}
         public virtual Fornecedor Fornecedores{get;set;}
     }
 }
