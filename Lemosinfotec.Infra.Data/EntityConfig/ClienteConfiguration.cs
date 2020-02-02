@@ -12,9 +12,9 @@ namespace Lemosinfotec.Infra.Data.EntityConfig
             builder.ToTable("Clientes");
             builder.HasKey(x=>x.ClienteId);
 
-            builder.Property(x=>x.Data)
-            .HasColumnType("datetime")
-            .IsRequired();
+            // builder.Property(x=>x.Data)
+            // .HasColumnType("datetime")
+            // .IsRequired();
 
 
             builder.Property(x=>x.Nome)

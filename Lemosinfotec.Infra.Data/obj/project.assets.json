@@ -1956,6 +1956,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
+      },
+      "Lemosinfotec.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Lemosinfotec.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lemosinfotec.Domain.dll": {}
+        }
       }
     }
   },
@@ -6742,10 +6752,16 @@
         "system.xml.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xmldocument.nuspec"
       ]
+    },
+    "Lemosinfotec.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Lemosinfotec.Domain/Lemosinfotec.Domain.csproj",
+      "msbuildProject": "../Lemosinfotec.Domain/Lemosinfotec.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "Lemosinfotec.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 2.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 2.0.0",
       "Microsoft.EntityFrameworkCore.Tools.DotNet >= 2.0.0",
@@ -6779,7 +6795,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/media/edilemos/Backup01/02-Projetos/PandaSistemas/Lemosinfotec.Domain/Lemosinfotec.Domain.csproj": {
+              "projectPath": "/media/edilemos/Backup01/02-Projetos/PandaSistemas/Lemosinfotec.Domain/Lemosinfotec.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -6829,7 +6849,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }

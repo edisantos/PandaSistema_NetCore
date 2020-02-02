@@ -1,0 +1,11 @@
+/media/edilemos/Backup01/02-Projetos/PandaSistemas/Lemosinfotec.Infra.Data/bin/Debug/netcoreapp3.0/Lemosinfotec.Infra.Data.deps.json
+/media/edilemos/Backup01/02-Projetos/PandaSistemas/Lemosinfotec.Infra.Data/bin/Debug/netcoreapp3.0/Lemosinfotec.Infra.Data.dll
+/media/edilemos/Backup01/02-Projetos/PandaSistemas/Lemosinfotec.Infra.Data/bin/Debug/netcoreapp3.0/Lemosinfotec.Infra.Data.pdb
+/media/edilemos/Backup01/02-Projetos/PandaSistemas/Lemosinfotec.Infra.Data/bin/Debug/netcoreapp3.0/Lemosinfotec.Domain.dll
+/media/edilemos/Backup01/02-Projetos/PandaSistemas/Lemosinfotec.Infra.Data/bin/Debug/netcoreapp3.0/Lemosinfotec.Domain.pdb
+/media/edilemos/Backup01/02-Projetos/PandaSistemas/Lemosinfotec.Infra.Data/obj/Debug/netcoreapp3.0/Lemosinfotec.Infra.Data.csprojAssemblyReference.cache
+/media/edilemos/Backup01/02-Projetos/PandaSistemas/Lemosinfotec.Infra.Data/obj/Debug/netcoreapp3.0/Lemosinfotec.Infra.Data.AssemblyInfoInputs.cache
+/media/edilemos/Backup01/02-Projetos/PandaSistemas/Lemosinfotec.Infra.Data/obj/Debug/netcoreapp3.0/Lemosinfotec.Infra.Data.AssemblyInfo.cs
+/media/edilemos/Backup01/02-Projetos/PandaSistemas/Lemosinfotec.Infra.Data/obj/Debug/netcoreapp3.0/Lemosinfotec.Infra.Data.csproj.CopyComplete
+/media/edilemos/Backup01/02-Projetos/PandaSistemas/Lemosinfotec.Infra.Data/obj/Debug/netcoreapp3.0/Lemosinfotec.Infra.Data.dll
+/media/edilemos/Backup01/02-Projetos/PandaSistemas/Lemosinfotec.Infra.Data/obj/Debug/netcoreapp3.0/Lemosinfotec.Infra.Data.pdb

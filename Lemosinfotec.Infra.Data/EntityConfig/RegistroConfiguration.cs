@@ -11,9 +11,9 @@ namespace Lemosinfotec.Infra.Data.EntityConfig
             builder.ToTable("Registros");
             builder.HasKey(x=>x.id);
 
-            builder.Property(x=>x.Data)
-            .HasColumnType("datetime")
-            .IsRequired();
+            // builder.Property(x=>x.Data)
+            // .HasColumnType("datetime")
+            // .IsRequired();
 
             builder.Property(x=>x.ClienteId);
             builder.Property(x=>x.TipoManutencaoId);

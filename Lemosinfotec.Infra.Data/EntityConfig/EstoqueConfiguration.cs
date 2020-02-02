@@ -12,6 +12,10 @@ namespace Lemosinfotec.Infra.Data.EntityConfig
 
             builder.HasKey(x=>x.EstoqueId);
 
+            builder.Property(x=>x.Quantidade)
+            .HasColumnType("int")
+            .IsRequired();
+
             builder.HasOne(x=>x.TipoPeca)
             .WithMany(x=>x.Estoque);
 

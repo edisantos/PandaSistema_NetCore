@@ -26,15 +26,15 @@ namespace Lemosinfotec.Infra.Data.Contexto
 
         protected override void OnModelCreating(ModelBuilder builder){
 
-            builder.ApplyConfiguration(new ClienteConfiguration());
-            builder.ApplyConfiguration(new EstoqueConfiguration());
-            builder.ApplyConfiguration(new FornecedorConfiguration());
-            builder.ApplyConfiguration(new MarcaOConfiguration());
-            builder.ApplyConfiguration(new MecanicoConfiguration());
-            builder.ApplyConfiguration(new RegistroConfiguration());
-            builder.ApplyConfiguration(new TipoManutencaoConfiguration());
-            builder.ApplyConfiguration(new TipoPecasConfiguration());
-            builder.ApplyConfiguration(new VeiculoConfiguration());
+            // builder.ApplyConfiguration(new ClienteConfiguration());
+            // builder.ApplyConfiguration(new EstoqueConfiguration());
+            // builder.ApplyConfiguration(new FornecedorConfiguration());
+            // builder.ApplyConfiguration(new MarcaOConfiguration());
+            // builder.ApplyConfiguration(new MecanicoConfiguration());
+            // builder.ApplyConfiguration(new RegistroConfiguration());
+            // builder.ApplyConfiguration(new TipoManutencaoConfiguration());
+            // builder.ApplyConfiguration(new TipoPecasConfiguration());
+            // builder.ApplyConfiguration(new VeiculoConfiguration());
 
             base.OnModelCreating(builder);
 
